@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cars</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <!--menu bar-->
+    <div class="menu traget">
+    <div class="menuLine menuLine1"></div>
+    <div class="menuLine menuLine2"></div>
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar traget">
+        <a href="#home" class="navbarLink">Home</a>
+        <a href="#popularCars" class="navbarLink">Popular Cars</a>
+        <a href="#videoGallery" class="navbarLink">Video Gallery</a>
+        <a href="#imageGallery" class="navbarLink">Image Gallery</a>
+        <a href="#contact" class="navbarLink">Contact</a>
+
+    <!--section-->
+    </nav>
+<div>
+    <div class="wrapper">
+        <section class="section1 traget center" id="home">
+            <h1 class="sectionHeading section1Heading">Benz Cars</h1>
+            <img class="section1Img">
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section2 traget" id="popularCars">
+            <h1 class="sectionHeading section2Heading">Popular Cars</h1>
+                <div class="cardsWrapper center">
+
+                    <div class="cards">
+                        <h2 class="carName">Mercedes-Benz S-Class class</h2>
+                        <img src="img/img1.jpg" class="carImage"/>
+                        <h3 class="carPrize">1.86 Crore</h3>
+                            <button onclick="sectionClick1()" type="button"class="btn">More Info</button>
+                        </a>
+                    </div>
+
+                    <div class="cards">
+                        <h2 class="carName">Mercedes BenzAMG SL55 roadster</h2>
+                        <img src="img/img2.jpg" class="carImage"/>
+                        <h3 class="carPrize">2.44 crore</h3>
+                            <button onclick="sectionClick2()" type="button"class="btn">More Info</button>
+                        </a>
+                    </div>
+
+                    <div class="cards">
+                        <h2 class="carName">Mercedes-Benz GLB</h2>
+                        <img src="img/img3.jpg" class="carImage" height="269px" width="113px"/>
+                        <h3 class="carPrize">71.80 Lakh</h3>
+                            <button onclick="sectionClick3()" type="button"class="btn">More Info</button>
+                        </a>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section3 traget" id="videoGallery">
+            <h1 class="sectionHeading section3Heading">VIDEO GALLERY</h1>
+            <div class="videoWrap center">
+                <video src="video/vid1.mp4" muted loop class="video"></video>
+                <video src="video/vid2.mp4" muted loop class="video"></video>
+                <video src="video/vid3.mp4" muted loop class="video"></video>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section4 traget" id="imageGallery">
+            <h1 class="sectionHeading">Image Gallery</h1>
+            <div class=" shell">
+                <img src="img/six.jpeg" class="img1" width="300" height="200">
+                <img src="img/twoim.jpg" class="img1" width="300" height="200">
+                <img src="img/threeim.jpg" class="img1" width="300" height="200">
+            </div>
+            <div class=" shell ">
+                <img src="img/four.jpg" class="img2" width="300" height="200">
+                <img src="img/five (2).jpeg" class="img2"width="300" height="200">
+                <img src="img/oneim.jpg" class="img2" width="300" height="200">
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section5 traget" id="contact">
+            
+        <h1 class="sectionHeading section5Heading">contact us</h1>
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                <div class="inside">
+
+                    <input type="hidden" name="access_key" value="6db3093e-d38f-41af-b981-66109f289146">
+                    <input  type="text" name="name" class="info" placeholder="Your Full Name">
+                    <input  type="text" name="email" class="info"placeholder="Your Email">
+                    <textarea  type="text" name="feedback" class="info info1" placeholder="Feedback"></textarea>
+                    <button class="btn1" type="submit" >submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+    </nav>
+    
+    <script src='script.js'></script>
+</body>
+</html>

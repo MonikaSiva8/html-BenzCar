@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+}
+
+.heading{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: aliceblue;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 1rem 1rem 1rem #000, 2rem 2rem 2rem #111, 3rem 3rem 3rem #222;
+}
+.sectionImage1{
+    position: absolute;
+    bottom:5rem;
+    left: 2rem;
+    
+}
+table,th,tr,th{
+    border: 2px solid;
+}
+table{
+    float: right ;
+    width: 900px;
+    height: 600px;
+    padding: 10px;
+    border-spacing: 1px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
